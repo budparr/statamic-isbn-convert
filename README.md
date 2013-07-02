@@ -15,7 +15,7 @@ Requires the Statamic CMS.
 
 ## Tag
 
-{{ isbnconverter isbn13='978XXXXXXXXXX' }}
+{{ isbn_convert isbn13='978XXXXXXXXXX' }}
 
 or, for example
 
