@@ -22,3 +22,5 @@ or, for example
 {{ isbn_convert isbn13='{{ isbn }}' }}
 
 where {{ isbn }} is your ISBN field's output tag.
+
+That's it. A pretty simple plugin.
