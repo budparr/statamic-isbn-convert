@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Statamic-isbn-convert : Converts a 13 digit ISBN number to ISBN-10" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Statamic-isbn-convert</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/budparr/statamic-isbn-convert">View on GitHub</a>
+
+          <h1 id="project_title">Statamic-isbn-convert</h1>
+          <h2 id="project_tagline">Converts a 13 digit ISBN number to ISBN-10</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/budparr/statamic-isbn-convert/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/budparr/statamic-isbn-convert/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="statamic-isbn-converter-plugin" class="anchor" href="#statamic-isbn-converter-plugin"><span class="octicon octicon-link"></span></a>Statamic ISBN Converter Plugin</h1>
+
+<h1></h1>
+
+<p>In addition to the ISBN Converter, this plugin now creates ASINs.</p>
+
+<p>Requires the Statamic CMS, wich you can find at <a href="http://statamic.com">www.statamic.com</a></p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<ul>
+<li>Download the zip file and unzip it or clone the repo.</li>
+<li>Make sure the folder name is "isbn_convert."</li>
+<li>Upload to your "/_add-ons/" folder.</li>
+</ul><h2>
+<a name="tag" class="anchor" href="#tag"><span class="octicon octicon-link"></span></a>Tag</h2>
+
+<p>{{ isbn_convert isbn13='978XXXXXXXXXX' }}</p>
+
+<p>or, for example</p>
+
+<p>{{ isbn_convert isbn13='{{ isbn }}' }}</p>
+
+<p>where {{ isbn }} is your ISBN field's output tag.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Statamic-isbn-convert maintained by <a href="https://github.com/budparr">budparr</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
